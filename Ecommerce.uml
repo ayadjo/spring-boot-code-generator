@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MagicDrawProfile="http:///schemas/MagicDrawProfile/_WuMnEKX2EfGnz8DntdcXiw/0" xmlns:Profile="http:///schemas/Profile/_Wt328KX2EfGnz8DntdcXiw/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/MagicDrawProfile/_WuMnEKX2EfGnz8DntdcXiw/0 UML_Standard_Profile.MagicDraw_Profile.profile.uml#_Wuor8KX2EfGnz8DntdcXiw http:///schemas/Profile/_Wt328KX2EfGnz8DntdcXiw/0 Profile.profile.uml#_WuWYEKX2EfGnz8DntdcXiw">
+  <uml:Model xmi:id="eee_1045467100313_135436_1" name="Data" viewpoint="">
+    <ownedComment xmi:id="_17_0_3_3130103_1785846438767_882934_2845" body="Author:38160.&#xA;Created:8/4/26 2:27 PM.&#xA;Title:.&#xA;Comment:.&#xA;" annotatedElement="eee_1045467100313_135436_1"/>
+    <packageImport xmi:id="_0primitiveTypesData">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:id="_0javaPrimitiveTypesData">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_17_0_3_3130103_1788196033249_170943_2991" name="Domain Model">
+      <packagedElement xmi:type="uml:Class" xmi:id="_17_0_3_3130103_1788196222261_553010_3015" name="Korisnik">
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788196236045_203324_3035" name="id" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788196267965_961592_3037" name="ime" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788196281711_618008_3039" name="email" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788254269167_277805_3152" name="narudzbine" visibility="private" type="_17_0_3_3130103_1788197696539_59988_3084" association="_17_0_3_3130103_1788254269167_589152_3151">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_3_3130103_1788254347701_19364_3176" name="" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_17_0_3_3130103_1788254347701_172387_3175" name=""/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_17_0_3_3130103_1788196315804_72351_3042" name="Proizvod">
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788196331512_744849_3062" name="id" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788196351308_697141_3064" name="naziv" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788196368882_469567_3066" name="cena" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788254874295_818608_3240" name="stavke" visibility="private" type="_17_0_3_3130103_1788197711837_531691_3105" association="_17_0_3_3130103_1788254874295_389881_3238">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_3_3130103_1788254937310_101845_3265" name="" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_17_0_3_3130103_1788254937310_310412_3264" name=""/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_17_0_3_3130103_1788197696539_59988_3084" name="Narudzbina">
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788197805632_474958_3125" name="id" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788197866514_422050_3128" name="datumKreiranja" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml#_be00301_1073305590699_364818_1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788197903532_169689_3131" name="status" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788197945776_67830_3134" name="ukupnaCena" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788254269167_830439_3153" name="korisnik" visibility="private" type="_17_0_3_3130103_1788196222261_553010_3015" association="_17_0_3_3130103_1788254269167_589152_3151">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_3_3130103_1788254343291_555850_3170" name="" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_17_0_3_3130103_1788254343291_38991_3169" name="" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788254689973_681870_3206" name="stavke" visibility="private" type="_17_0_3_3130103_1788197711837_531691_3105" aggregation="composite" association="_17_0_3_3130103_1788254689973_925861_3205">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_3_3130103_1788254801749_657618_3230" name="" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_17_0_3_3130103_1788254801749_501722_3229" name="" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_17_0_3_3130103_1788197711837_531691_3105" name="StavkaNarudzbine">
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788253937228_424892_3137" name="id" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788253978651_507577_3140" name="kolicina" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788254037659_47396_3143" name="cenaPoKomadu" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788254689973_840787_3207" name="narudzbina" visibility="private" type="_17_0_3_3130103_1788197696539_59988_3084" association="_17_0_3_3130103_1788254689973_925861_3205">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_3_3130103_1788254755409_935690_3224" name="" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_17_0_3_3130103_1788254755409_424988_3223" name="" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_3_3130103_1788254874295_852156_3239" name="proizvod" visibility="private" type="_17_0_3_3130103_1788196315804_72351_3042" association="_17_0_3_3130103_1788254874295_389881_3238">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_17_0_3_3130103_1788254914486_517030_3257" name="" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_17_0_3_3130103_1788254914486_200948_3256" name="" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_17_0_3_3130103_1788254269167_589152_3151" name="" memberEnd="_17_0_3_3130103_1788254269167_277805_3152 _17_0_3_3130103_1788254269167_830439_3153"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_17_0_3_3130103_1788254689973_925861_3205" name="" memberEnd="_17_0_3_3130103_1788254689973_681870_3206 _17_0_3_3130103_1788254689973_840787_3207"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_17_0_3_3130103_1788254874295_389881_3238" name="" memberEnd="_17_0_3_3130103_1788254874295_852156_3239 _17_0_3_3130103_1788254874295_818608_3240"/>
+      <profileApplication xmi:id="_17_0_3_3130103_1788196111091_45433_3013">
+        <eAnnotations xmi:id="_Wu3VcqX2EfGnz8DntdcXiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="Profile.profile.uml#_WuWYEKX2EfGnz8DntdcXiw"/>
+        </eAnnotations>
+        <appliedProfile href="Profile.profile.uml#_17_0_3_3130103_1785846454742_499917_2968"/>
+      </profileApplication>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="magicdraw_uml_standard_profile_v_0001" name="UML Standard Profile">
+      <ownedComment xmi:id="_be00301_1078843546940_242228_131" body="UML Standard Profile contains UML metamodel (metaclasses without properties and associations), StandardProfileL2 and StandardProfileL3 from UML specification, Standard UML stereotypes defined in annex C of UML specification.&#xA;Profile also includes validation suites for UML model correctness and completeness checking, and stereotypes used by MagicDraw internally." annotatedElement="magicdraw_uml_standard_profile_v_0001"/>
+    </packagedElement>
+    <profileApplication xmi:id="_16_6_8f90291_1254846042821_86742_517profileApplicationData">
+      <eAnnotations xmi:id="_Wu05MKX2EfGnz8DntdcXiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.Traceability_customization.profile.uml#_WuYNQqX2EfGnz8DntdcXiw"/>
+      </eAnnotations>
+      <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.Traceability_customization.profile.uml#_16_6_8f90291_1254846042821_86742_517"/>
+    </profileApplication>
+    <profileApplication xmi:id="_11_5_f720368_1159529670215_231387_1profileApplicationData">
+      <eAnnotations xmi:id="_Wu2HUaX2EfGnz8DntdcXiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.Validation_Profile.profile.uml#_WukaqqX2EfGnz8DntdcXiw"/>
+      </eAnnotations>
+      <appliedProfile href="UML_Standard_Profile.Validation_Profile.profile.uml#_11_5_f720368_1159529670215_231387_1"/>
+    </profileApplication>
+    <profileApplication xmi:id="_11_5_be00301_1153310565718_226811_161profileApplicationData">
+      <eAnnotations xmi:id="_Wu2HU6X2EfGnz8DntdcXiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml#_WuY0c6X2EfGnz8DntdcXiw"/>
+      </eAnnotations>
+      <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml#_11_5_be00301_1153310565718_226811_161"/>
+    </profileApplication>
+    <profileApplication xmi:id="_17_0_3_3130103_1785846454742_499917_2968profileApplicationData">
+      <eAnnotations xmi:id="_Wu3VcaX2EfGnz8DntdcXiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="Profile.profile.uml#_WuWYEKX2EfGnz8DntdcXiw"/>
+      </eAnnotations>
+      <appliedProfile href="Profile.profile.uml#_17_0_3_3130103_1785846454742_499917_2968"/>
+    </profileApplication>
+    <profileApplication xmi:id="_16_8beta_62a020a_1256807755193_508228_378profileApplicationData">
+      <eAnnotations xmi:id="_WvEw0aX2EfGnz8DntdcXiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.StandardProfileL3.profile.uml#_WujzcqX2EfGnz8DntdcXiw"/>
+      </eAnnotations>
+      <appliedProfile href="UML_Standard_Profile.StandardProfileL3.profile.uml#_16_8beta_62a020a_1256807755193_508228_378"/>
+    </profileApplication>
+    <profileApplication xmi:id="_be00301_1073394351331_445580_2profileApplicationData">
+      <eAnnotations xmi:id="_WvGmAaX2EfGnz8DntdcXiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml#_Wuor8KX2EfGnz8DntdcXiw"/>
+      </eAnnotations>
+      <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.profile.uml#_be00301_1073394351331_445580_2"/>
+    </profileApplication>
+    <profileApplication xmi:id="_9_0_be00301_1108050582343_527400_10847profileApplicationData">
+      <eAnnotations xmi:id="_WvIbMKX2EfGnz8DntdcXiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.StandardProfileL2.profile.uml#_WuXmqqX2EfGnz8DntdcXiw"/>
+      </eAnnotations>
+      <appliedProfile href="UML_Standard_Profile.StandardProfileL2.profile.uml#_9_0_be00301_1108050582343_527400_10847"/>
+    </profileApplication>
+  </uml:Model>
+  <Profile:Entity xmi:id="_Wwo3EaX2EfGnz8DntdcXiw" base_Class="_17_0_3_3130103_1788197711837_531691_3105" tableName="stavke_narudzbine"/>
+  <Profile:Entity xmi:id="_Wwo3EqX2EfGnz8DntdcXiw" base_Class="_17_0_3_3130103_1788197696539_59988_3084" tableName="narudzbine"/>
+  <Profile:Entity xmi:id="_Wwo3E6X2EfGnz8DntdcXiw" base_Class="_17_0_3_3130103_1788196315804_72351_3042" tableName="proizvodi"/>
+  <Profile:Entity xmi:id="_Wwo3FKX2EfGnz8DntdcXiw" base_Class="_17_0_3_3130103_1788196222261_553010_3015" tableName="korisnici"/>
+  <Profile:Id xmi:id="_Wwo3FaX2EfGnz8DntdcXiw" base_Property="_17_0_3_3130103_1788253937228_424892_3137" strategy="IDENTITY"/>
+  <Profile:Id xmi:id="_WwpeIKX2EfGnz8DntdcXiw" base_Property="_17_0_3_3130103_1788197805632_474958_3125"/>
+  <Profile:Id xmi:id="_WwpeIaX2EfGnz8DntdcXiw" base_Property="_17_0_3_3130103_1788196331512_744849_3062"/>
+  <Profile:Id xmi:id="_WwqFMKX2EfGnz8DntdcXiw" base_Property="_17_0_3_3130103_1788196236045_203324_3035" strategy="IDENTITY"/>
+  <Profile:Required xmi:id="_WwqFMaX2EfGnz8DntdcXiw" base_Property="_17_0_3_3130103_1788196351308_697141_3064"/>
+  <Profile:Required xmi:id="_WwrTUKX2EfGnz8DntdcXiw" base_Property="_17_0_3_3130103_1788254037659_47396_3143"/>
+  <Profile:Required xmi:id="_WwrTUaX2EfGnz8DntdcXiw" base_Property="_17_0_3_3130103_1788253978651_507577_3140"/>
+  <Profile:Required xmi:id="_WwrTUqX2EfGnz8DntdcXiw" base_Property="_17_0_3_3130103_1788197945776_67830_3134"/>
+  <Profile:Required xmi:id="_WwrTU6X2EfGnz8DntdcXiw" base_Property="_17_0_3_3130103_1788197903532_169689_3131"/>
+  <Profile:Required xmi:id="_WwrTVKX2EfGnz8DntdcXiw" base_Property="_17_0_3_3130103_1788197866514_422050_3128"/>
+  <Profile:Required xmi:id="_WwrTVaX2EfGnz8DntdcXiw" base_Property="_17_0_3_3130103_1788196368882_469567_3066"/>
+  <Profile:Required xmi:id="_Wwr6YKX2EfGnz8DntdcXiw" base_Property="_17_0_3_3130103_1788196281711_618008_3039"/>
+  <Profile:Required xmi:id="_Wwr6YaX2EfGnz8DntdcXiw" base_Property="_17_0_3_3130103_1788196267965_961592_3037"/>
+  <Profile:Unique xmi:id="_Wwr6YqX2EfGnz8DntdcXiw" base_Property="_17_0_3_3130103_1788196281711_618008_3039"/>
+  <Profile:Application xmi:id="_Wwr6Y6X2EfGnz8DntdcXiw" basePackage="com.firma.ecommerce" apiPrefix="/api/v1" databaseType="PostgreSQL" generateSwagger="true" base_Package="_17_0_3_3130103_1788196033249_170943_2991"/>
+  <MagicDrawProfile:auxiliaryResource xmi:id="_WwshcKX2EfGnz8DntdcXiw" base_Element="magicdraw_uml_standard_profile_v_0001" base_Package="magicdraw_uml_standard_profile_v_0001"/>
+</xmi:XMI>
