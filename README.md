@@ -6,7 +6,10 @@ Writing boilerplate CRUD applications is repetitive and time-consuming. This pro
 ## ✨ Key Features
 
 - **UML Profile & Stereotypes**: Custom MagicDraw profile extending standard metaclasses across three levels (Package, Class, Attribute) to inject domain-specific metadata.
-![UML Profile Structure](./profile_E234_2025.png)
+<p align="center">
+  <img src="./profile_E234_2025.png" width="700" alt="UML Profile Structure">
+</p>
+
 - **OCL Model Validation**: Automated pre-generation validation ensuring model integrity (e.g., verifying that every entity has a defined primary key and non-empty table name).
 - **Dual-Layer Protection Mechanism**: Generates **Base classes** (fully automated CRUD logic, JPA annotations, REST endpoints, overwritten on every run) and **Skeleton classes** (extends Base classes, safely preserved if manually modified by developers).
 - **FreeMarker Templating**: Dynamically produces a standard Maven project structure, complete with `pom.xml` (Spring Data JPA, PostgreSQL, Swagger/OpenAPI), entities, repositories, services, controllers, and DTOs.
